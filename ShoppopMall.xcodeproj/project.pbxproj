@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72DD15D824A51E5000333A43 /* MyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD15D724A51E5000333A43 /* MyController.swift */; };
+		72DD15DA24A5211600333A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DD15D924A5211600333A43 /* Assets.xcassets */; };
+		72DD15E624A54AA600333A43 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD15E424A54AA600333A43 /* BaseNavigationController.swift */; };
+		72DD15E724A54AA600333A43 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD15E524A54AA600333A43 /* BaseViewController.swift */; };
+		72DD15E924A54BD700333A43 /* Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD15E824A54BD700333A43 /* Public.swift */; };
+		72DD15EB24A54C3400333A43 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD15EA24A54C3400333A43 /* UIColor+Extension.swift */; };
+		72DD162124A54FD900333A43 /* GuideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD161F24A54FD900333A43 /* GuideCell.swift */; };
+		72DD162224A54FD900333A43 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD162024A54FD900333A43 /* GuideViewController.swift */; };
+		72DD162424A5535B00333A43 /* YCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD162324A5535B00333A43 /* YCTabBarController.swift */; };
+		72DD162824A554E700333A43 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD162724A554E700333A43 /* HomeController.swift */; };
 		B672FD2A23EAD19B00BF9774 /* MallTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672FD2923EAD19B00BF9774 /* MallTableViewController.swift */; };
 		B672FD2C23EAD1B400BF9774 /* MallTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672FD2B23EAD1B400BF9774 /* MallTableViewCell.swift */; };
 		B686166223ED3AF800873C11 /* MallDetialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B686166123ED3AF800873C11 /* MallDetialTableViewController.swift */; };
@@ -21,6 +31,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72DD15D724A51E5000333A43 /* MyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyController.swift; sourceTree = "<group>"; };
+		72DD15D924A5211600333A43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../learnSwift-master 2/learnSwift/Assets.xcassets"; sourceTree = "<group>"; };
+		72DD15E424A54AA600333A43 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		72DD15E524A54AA600333A43 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		72DD15E824A54BD700333A43 /* Public.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Public.swift; sourceTree = "<group>"; };
+		72DD15EA24A54C3400333A43 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		72DD161F24A54FD900333A43 /* GuideCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideCell.swift; sourceTree = "<group>"; };
+		72DD162024A54FD900333A43 /* GuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		72DD162324A5535B00333A43 /* YCTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCTabBarController.swift; sourceTree = "<group>"; };
+		72DD162724A554E700333A43 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		B672FD2923EAD19B00BF9774 /* MallTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallTableViewController.swift; sourceTree = "<group>"; };
 		B672FD2B23EAD1B400BF9774 /* MallTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallTableViewCell.swift; sourceTree = "<group>"; };
 		B686166123ED3AF800873C11 /* MallDetialTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallDetialTableViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +67,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72DD15D424A51D5A00333A43 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				72DD15D724A51E5000333A43 /* MyController.swift */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		72DD15D624A51DE600333A43 /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				72DD162724A554E700333A43 /* HomeController.swift */,
+				B672FD2923EAD19B00BF9774 /* MallTableViewController.swift */,
+				B672FD2B23EAD1B400BF9774 /* MallTableViewCell.swift */,
+				B6A2F89523EBEB9E0051D9A6 /* MallClient.swift */,
+				B6A2F89723EBEFBB0051D9A6 /* Feed.swift */,
+				B6A2F89923EBF0420051D9A6 /* MallDetail.swift */,
+				B686166123ED3AF800873C11 /* MallDetialTableViewController.swift */,
+				B686166323ED3C6B00873C11 /* MallDetialTableViewCell.swift */,
+			);
+			path = "主页";
+			sourceTree = "<group>";
+		};
+		72DD15EC24A54C4A00333A43 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				72DD15E524A54AA600333A43 /* BaseViewController.swift */,
+				72DD15E424A54AA600333A43 /* BaseNavigationController.swift */,
+				72DD162324A5535B00333A43 /* YCTabBarController.swift */,
+				72DD161F24A54FD900333A43 /* GuideCell.swift */,
+				72DD162024A54FD900333A43 /* GuideViewController.swift */,
+				72DD15E824A54BD700333A43 /* Public.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
 		B6C8BFC623E8FFFD00B97530 = {
 			isa = PBXGroup;
 			children = (
@@ -66,18 +122,16 @@
 		B6C8BFD123E8FFFD00B97530 /* ShoppopMall */ = {
 			isa = PBXGroup;
 			children = (
+				72DD15D624A51DE600333A43 /* 主页 */,
+				72DD15D424A51D5A00333A43 /* 我的 */,
+				72DD15EC24A54C4A00333A43 /* Public */,
 				B6C8BFD223E8FFFD00B97530 /* AppDelegate.swift */,
+				72DD15EA24A54C3400333A43 /* UIColor+Extension.swift */,
 				B6C8BFD423E8FFFD00B97530 /* SceneDelegate.swift */,
 				B6C8BFD823E8FFFD00B97530 /* Main.storyboard */,
 				B6C8BFDD23E9000200B97530 /* LaunchScreen.storyboard */,
 				B6C8BFE023E9000200B97530 /* Info.plist */,
-				B672FD2923EAD19B00BF9774 /* MallTableViewController.swift */,
-				B672FD2B23EAD1B400BF9774 /* MallTableViewCell.swift */,
-				B6A2F89523EBEB9E0051D9A6 /* MallClient.swift */,
-				B6A2F89723EBEFBB0051D9A6 /* Feed.swift */,
-				B6A2F89923EBF0420051D9A6 /* MallDetail.swift */,
-				B686166123ED3AF800873C11 /* MallDetialTableViewController.swift */,
-				B686166323ED3C6B00873C11 /* MallDetialTableViewCell.swift */,
+				72DD15D924A5211600333A43 /* Assets.xcassets */,
 			);
 			path = ShoppopMall;
 			sourceTree = "<group>";
@@ -141,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6C8BFDF23E9000200B97530 /* LaunchScreen.storyboard in Resources */,
+				72DD15DA24A5211600333A43 /* Assets.xcassets in Resources */,
 				B6C8BFDA23E8FFFD00B97530 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,15 +207,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72DD15E724A54AA600333A43 /* BaseViewController.swift in Sources */,
 				B672FD2C23EAD1B400BF9774 /* MallTableViewCell.swift in Sources */,
 				B6C8BFD323E8FFFD00B97530 /* AppDelegate.swift in Sources */,
 				B6A2F89823EBEFBB0051D9A6 /* Feed.swift in Sources */,
 				B6A2F89A23EBF0420051D9A6 /* MallDetail.swift in Sources */,
+				72DD15E924A54BD700333A43 /* Public.swift in Sources */,
 				B672FD2A23EAD19B00BF9774 /* MallTableViewController.swift in Sources */,
 				B6C8BFD523E8FFFD00B97530 /* SceneDelegate.swift in Sources */,
+				72DD162124A54FD900333A43 /* GuideCell.swift in Sources */,
 				B6A2F89623EBEB9E0051D9A6 /* MallClient.swift in Sources */,
+				72DD162224A54FD900333A43 /* GuideViewController.swift in Sources */,
+				72DD15EB24A54C3400333A43 /* UIColor+Extension.swift in Sources */,
 				B686166423ED3C6B00873C11 /* MallDetialTableViewCell.swift in Sources */,
+				72DD162424A5535B00333A43 /* YCTabBarController.swift in Sources */,
+				72DD15E624A54AA600333A43 /* BaseNavigationController.swift in Sources */,
 				B686166223ED3AF800873C11 /* MallDetialTableViewController.swift in Sources */,
+				72DD162824A554E700333A43 /* HomeController.swift in Sources */,
+				72DD15D824A51E5000333A43 /* MyController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

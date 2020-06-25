@@ -14,6 +14,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <tabBar key="tableFooterView" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="biB-ks-kUM">
+                            <rect key="frame" x="0.0" y="293" width="414" height="49"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <items>
+                                <tabBarItem title="主页" id="qSV-Xb-xCz"/>
+                                <tabBarItem title="我的" id="g6Z-OL-Rde"/>
+                            </items>
+                        </tabBar>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SonicpMallCell" rowHeight="237" id="EPi-74-WDn" customClass="MallTableViewCell" customModule="ShoppopMall" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="237"/>
