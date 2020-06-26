@@ -11,17 +11,14 @@
             <objects>
                 <tableViewController id="HCv-fa-eMj" customClass="MallTableViewController" customModule="ShoppopMall" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="6U2-Qm-cPR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <tabBar key="tableFooterView" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="biB-ks-kUM">
+                        <tabBar key="tableFooterView" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="biB-ks-kUM" userLabel="tb">
                             <rect key="frame" x="0.0" y="293" width="414" height="49"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <items>
-                                <tabBarItem title="主页" id="qSV-Xb-xCz"/>
-                                <tabBarItem title="我的" id="g6Z-OL-Rde"/>
-                            </items>
+                            <items/>
                         </tabBar>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SonicpMallCell" rowHeight="237" id="EPi-74-WDn" customClass="MallTableViewCell" customModule="ShoppopMall" customModuleProvider="target">
@@ -160,7 +157,12 @@
                             <outlet property="delegate" destination="HCv-fa-eMj" id="edY-u3-jJz"/>
                         </connections>
                     </tableView>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="9Zg-7F-Wu4"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tb" destination="biB-ks-kUM" id="Q2c-94-fKx"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2sI-r4-2an" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -171,7 +173,7 @@
             <objects>
                 <tableViewController id="iTT-yo-y2b" customClass="MallDetialTableViewController" customModule="ShoppopMall" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="750" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="tWT-Tn-LhB">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="detialCell" rowHeight="800" id="4hq-jI-wWP" customClass="MallDetialTableViewCell" customModule="ShoppopMall" customModuleProvider="target">
@@ -274,8 +276,42 @@
             </objects>
             <point key="canvasLocation" x="-53.623188405797109" y="154.6875"/>
         </scene>
+        <!--MineViewController-->
+        <scene sceneID="yTc-gZ-LZc">
+            <objects>
+                <tableViewController id="NHF-EJ-wDW" userLabel="MineViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="nq1-GO-JbO" customClass="MineTableViewContraller">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="M9x-kN-e98">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="M9x-kN-e98" id="UVR-6F-FMD">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="NHF-EJ-wDW" id="78y-Ms-y87"/>
+                            <outlet property="delegate" destination="NHF-EJ-wDW" id="YbC-7l-2rZ"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <segue destination="HCv-fa-eMj" kind="push" id="dEH-eA-vZJ"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ddQ-4N-Cdi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="857" y="-520"/>
+        </scene>
     </scenes>
     <resources>
         <image name="heart.circle.fill" catalog="system" width="64" height="60"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="dEH-eA-vZJ"/>
+    </inferredMetricsTieBreakers>
 </document>
